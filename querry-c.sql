@@ -1,0 +1,11 @@
+SELECT 
+    SITE.SiteID,
+    SITE.`Site name`,
+    AVG(OBSERVATION.PM2_5) AS Average_PM2_5,
+    AVG(OBSERVATION.VPM2_5) AS Average_VPM2_5
+FROM 
+    OBSERVATION
+JOIN 
+    SITE ON OBSERVATION.SITE_SiteID = SITE.SiteID
+GROUP BY 
+    SITE.SiteID, SITE.`Site name`;

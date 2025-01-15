@@ -1,1 +1,0 @@
-# SQL-NoSQl-data-management
