@@ -19,8 +19,8 @@ I learnt a lot from this project, especially about the design and implementation
 
 To sum it up all,this project a success and I was able to implement a NoSQL timeseries database using Quest database. Being my first time, I am proud I was able to achieve a lot in a short span of time. The project has prepared on how to design, implement and preprocess data for a NoSQL timeseries database. I was able to learn how to use SQL-like queries to analyze data from the database. I also gained experience in using Python programming language and its libraries to interact with the database and perform data preprocessing.
 ### References
-[1] https://github.com/questdb/questdb/blob/master/LICENSE.txt
-[2] https://github.com/questdb/questdb/blob/master/README.md
+* [1] https://github.com/questdb/questdb/blob/master/LICENSE.txt
+* [2] https://github.com/questdb/questdb/blob/master/README.md
 
 
 
