@@ -9,11 +9,11 @@ The assignment involved working with two types of databases: relational, and non
 * Another challenge was dealing with the data types of the columns in the database. Ensuring that the data types matched the data being inserted was crucial to avoid errors and inconsistencies.
 * Switching from a relational database mindset to a timeseries-based schema in QuestDB was initially difficult. Unlike relational databases, non-relational databases do not enforce strict schemas, which required a shift in my approach to database design.
 ### Solutions
-* Handling large files import; I used Python to automate the data import process, referring to both phpMyAdmin and the pandas library. The pandas library was employed to read the CSV file in chunks, and SQLAlchemy was used to insert data into the database. This approach avoided the limitations of phpMyAdmin and ensured efficient data handling.[2,3]
-*  Timezone format; I ensured that the datetime values were stored in a format that supported timezone offsets. This involved using the `datetime` module in Python to handle date and time operations and ensuring that the database schema accommodated timezone information.[] 
+* Handling large files import; I used Python to automate the data import process, referring to both phpMyAdmin and the pandas library. The pandas library was employed to read the CSV file in chunks, and SQLAlchemy was used to insert data into the database. This approach avoided the limitations of phpMyAdmin and ensured efficient data handling. [2,3,4]
+*  Timezone format; I ensured that the datetime values were stored in a format that supported timezone offsets. This involved using the `datetime` module in Python to handle date and time operations and ensuring that the database schema accommodated timezone information. 
 * SQL query errors; I adopted a systematic approach to debug SQL queries by breaking them into smaller, testable components. Online SQL validators and support from peers helped me refine my queries into efficient and bugless code.[]
 * Data type inconsistencies; I double-checked the data types of columns in the database schema to ensure they matched with the data types I had on my data file.[]
-* Non-relational database schema design; I consulted documentation and online resources to better understand the design principles and best practices of implementing a timeseries-based schema in QuestDB. This involved understanding the trade-offs between schema flexibility and query.[7]
+* Non-relational database schema design; I consulted documentation and online resources to better understand the design principles and best practices of implementing a timeseries-based schema in QuestDB. This involved understanding the trade-offs between schema flexibility and query. [1]
 ###  Learning outcomes.
 The assignment provided hands-on experience with both relational and non-relational databases, allowing me to appreciate the differences in their design and usage. Below is some of the learning outcomes the assessment provided.
 * Technical Proficiency in Data Management; I acquired practical experience in relational and non-relational database design, implementation, and management. My comprehension of the trade-offs between the two models has improved as a result of the exercise.
@@ -30,6 +30,6 @@ The renowned expression, "Data is the new oil," sums up the importance of becomi
 * [3] Python Documentation. (n.d.). Retrieved from <https://docs.python
 * [4] SQLAlchemy Documentation. (n.d.). Retrieved from <https://www.sqlalchemy.org
 * [5] pandas Documentation. (n.d.). Retrieved from <https://pandas.pydata
-* [6] SQLAlchemy Documentation. (n.d.). Retrieved from <https://www.sqlalchemy.org
-* [7] QuestDB Documentation. (n.d.). Retrieved from <https://docs.questdb
+
+
 
