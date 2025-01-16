@@ -25,11 +25,11 @@ My understanding of the technicalities of data management has grown as a result 
 
 The renowned expression, "Data is the new oil," sums up the importance of becoming proficient in data management. Raw data must be efficiently processed and managed to provide insights that drive innovation and decision-making across a range of businesses, much like crude oil must be refined to power enterprises.
 ### References
-* [1] QuestDB Documentation. (n.d.). Retrieved from <https://docs.questdb
-* [2] phpMyAdmin Documentation. (n.d.). Retrieved from <https://www.php
-* [3] Python Documentation. (n.d.). Retrieved from <https://docs.python
-* [4] SQLAlchemy Documentation. (n.d.). Retrieved from <https://www.sqlalchemy.org
-* [5] pandas Documentation. (n.d.). Retrieved from <https://pandas.pydata
+* [1] QuestDB Documentation. Available at <https://docs.questdb
+* [2] phpMyAdmin Documentation. Available here <https://www.php
+* [3] Python Documentation. Available here <https://docs.python
+* [4] SQLAlchemy Documentation. Available here <https://www.sqlalchemy.org
+* [5] pandas Development Team (2024). pandas Documentation. Available at: <https://pandas.pydata.org/docs/index.html 
 
 
 
